@@ -375,28 +375,28 @@ constructor(): Sets the admin to the address that deploys the contract.
 
 3. HTML File: Create an HTML file (index.html) and add the following code:
    
-   <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>School Grading System</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="container">
-        <h1>School Grading System</h1>
-        <div>
-            <h2>Add Teacher</h2>
-            <input type="text" id="teacherAddress" placeholder="Teacher Address">
-            <button onclick="addTeacher()">Add Teacher</button>
-        </div>
-        <div>
-            <h2>Add Student</h2>
-            <input type="text" id="studentAddress" placeholder="Student Address">
-            <input type="number" id="studentId" placeholder="Student ID">
-            <input type="text" id="studentName" placeholder="Student Name">
-            <button onclick="addStudent()">Add Student</button>
+   ```<!DOCTYPE html>
+   <html lang="en">
+   <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>School Grading System</title>
+       <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+       <div class="container">
+           <h1>School Grading System</h1>
+           <div>
+               <h2>Add Teacher</h2>
+               <input type="text" id="teacherAddress" placeholder="Teacher Address">
+               <button onclick="addTeacher()">Add Teacher</button>
+           </div>
+           <div>
+               <h2>Add Student</h2>
+               <input type="text" id="studentAddress" placeholder="Student Address">
+               <input type="number" id="studentId" placeholder="Student ID">
+               <input type="text" id="studentName" placeholder="Student Name">
+               <button onclick="addStudent()">Add Student</button>
         </div>
         <div>
             <h2>Assign Grade</h2>
@@ -418,50 +418,51 @@ constructor(): Sets the admin to the address that deploys the contract.
     </div>
     <script src="https://cdn.jsdelivr.net/npm/web3@1.5.2/dist/web3.min.js"></script>
     <script src="app.js"></script>
-</body>
-</html>
+   </body>
+   </html>```
 
 4. CSS File: Create a CSS file (style.css) and add the following code:
-    .container {
-  width: 80%;
-  margin: 0 auto;
-  padding: 20px;
-  text-align: center;
-}
-
-h1, h2 {
-  color: #333;
-}
-
-input, button {
-  margin: 10px;
-  padding: 10px;
-  font-size: 1em;
-}
-
-button {
-  cursor: pointer;
-  background-color: #4CAF50;
-  color: white;
-  border: none;
-  border-radius: 5px;
-}
-
-button:hover {
-  background-color: #45a049;
-}
-
-#studentList ul, #grades ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-#studentList li, #grades li {
-  background: #f4f4f4;
-  margin: 5px 0;
-  padding: 10px;
-  border: 1px solid #ddd;
-}
+   
+             ```.container {
+           width: 80%;
+           margin: 0 auto;
+           padding: 20px;
+           text-align: center;
+         }
+         
+         h1, h2 {
+           color: #333;
+         }
+         
+         input, button {
+           margin: 10px;
+           padding: 10px;
+           font-size: 1em;
+         }
+         
+         button {
+           cursor: pointer;
+           background-color: #4CAF50;
+           color: white;
+           border: none;
+           border-radius: 5px;
+         }
+         
+         button:hover {
+           background-color: #45a049;
+         }
+         
+         #studentList ul, #grades ul {
+           list-style-type: none;
+           padding: 0;
+         }
+         
+         #studentList li, #grades li {
+           background: #f4f4f4;
+           margin: 5px 0;
+           padding: 10px;
+           border: 1px solid #ddd;
+         }```
 
 
 
