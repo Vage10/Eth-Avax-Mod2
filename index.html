@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Grading System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>School Grading System</h1>
+        <div>
+            <h2>Add Teacher</h2>
+            <input type="text" id="teacherAddress" placeholder="Teacher Address">
+            <button onclick="addTeacher()">Add Teacher</button>
+        </div>
+        <div>
+            <h2>Add Student</h2>
+            <input type="text" id="studentAddress" placeholder="Student Address">
+            <input type="number" id="studentId" placeholder="Student ID">
+            <input type="text" id="studentName" placeholder="Student Name">
+            <button onclick="addStudent()">Add Student</button>
+        </div>
+        <div>
+            <h2>Assign Grade</h2>
+            <input type="text" id="studentToGrade" placeholder="Student Address">
+            <input type="text" id="subject" placeholder="Subject">
+            <input type="number" id="grade" placeholder="Grade">
+            <button onclick="assignGrade()">Assign Grade</button>
+        </div>
+        <div>
+            <h2>View Grades</h2>
+            <input type="text" id="studentToView" placeholder="Student Address">
+            <button onclick="viewGrades()">View Grades</button>
+            <div id="grades"></div>
+        </div>
+        <div>
+            <h2>All Students</h2>
+            <div id="studentList"></div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.5.2/dist/web3.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
