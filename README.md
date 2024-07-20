@@ -464,12 +464,13 @@ constructor(): Sets the admin to the address that deploys the contract.
            border: 1px solid #ddd;
          }```
 
+## Usage
+### Deployment
+- Deploy the contract using an Ethereum development environment.
+- The deploying address will be set as the admin.
 
-
-
-
-
-
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
 
 
 
